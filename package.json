@@ -1,0 +1,17 @@
+{
+  "name": "quiz_with_corr",
+  "version": "1.0.0",
+  "description": "Cluckr, simple express app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grea P",
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
