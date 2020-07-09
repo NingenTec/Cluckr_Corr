@@ -29,7 +29,7 @@ router.get('/welcome', (_req, _res) => {
   _res.render('welcome')
 })
 router.get('/', (_req, _res) => {
-  _res.redirect('/welcome')
+  _res.redirect('/clucks/list')
 })
 
 //sign in page route
