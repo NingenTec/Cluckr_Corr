@@ -1,9 +1,9 @@
- 
- const express = require("express");
- const router = express.Router();
- 
- 
+const express = require('express')
+const router = express.Router()
+
 //  GET new cluck page
-  router.get("/newCluck", (_req, _res) => {
-    _res.render("newClk");
-  });
+router.get('/newCluck', (_req, _res) => {
+  _res.render('newClk')
+})
+
+module.exports = router
